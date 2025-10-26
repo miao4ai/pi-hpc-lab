@@ -41,7 +41,7 @@ pip install numpy dask distributed matplotlib
 ```
 
 ## 🧩 Project Structure
-
+```text
 pi-hpc-lab/
 ├── matmul/              # Distributed matrix multiplication
 ├── linear_regression/   # Distributed gradient descent
@@ -50,3 +50,4 @@ pi-hpc-lab/
 ├── fft_image/           # Distributed FFT and image filtering
 ├── benchmark/           # Performance comparison utilities
 └── README.md
+```

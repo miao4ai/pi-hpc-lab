@@ -39,3 +39,14 @@ This project aims to:
 sudo apt update && sudo apt install -y python3-pip
 pip install numpy dask distributed matplotlib
 ```
+
+## 🧩 Project Structure
+
+pi-hpc-lab/
+├── matmul/              # Distributed matrix multiplication
+├── linear_regression/   # Distributed gradient descent
+├── heat_equation/       # PDE simulation (2D heat diffusion)
+├── montecarlo_pi/       # Monte Carlo π estimation
+├── fft_image/           # Distributed FFT and image filtering
+├── benchmark/           # Performance comparison utilities
+└── README.md
